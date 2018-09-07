@@ -246,10 +246,10 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:3ca7a76c163b9694cc89f50ed108f6c8b0595083c676cf5c1b06aa082fa323b5"
+  digest = "1:2f8c5c83ec48ebde068dcab3cc6ab5d5311af1a6cb193ceabcab0ebc521f52fc"
   name = "github.com/client9/misspell"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "T"
   revision = "c0b55c8239520f6b5aa15a0207ca8b28027ba49e"
 
 [[projects]]
