@@ -7,11 +7,15 @@ set -e
 
 SCRIPTPATH=$( cd "$(dirname "$0")" ; pwd -P )
 ROOTDIR=$SCRIPTPATH/..
+echo $ROOTDIR "test"
 cd "$ROOTDIR"
 
 GOPATH=$(cd "$ROOTDIR/../../.."; pwd)
 export GOPATH
 export PATH=$GOPATH/bin:$PATH
+
+pwd
+echo "test"
 
 # Install tools we need, but only from vendor/...
 go install istio.io/istio/vendor/github.com/client9/misspell/cmd/misspell
