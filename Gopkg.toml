@@ -345,6 +345,10 @@ ignored = [
     non-go = false
     unused-packages = false
   [[prune.project]]
+    name = "github.com/client9/misspell"
+    non-go = false
+    unused-packages = false
+  [[prune.project]]
     name = "github.com/envoyproxy/go-control-plane"
     non-go = false
     unused-packages = false
