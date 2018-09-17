@@ -29,7 +29,7 @@ fi
 NAME="istio-$ISTIO_VERSION"
 URL="https://github.com/istio/istio/releases/download/${ISTIO_VERSION}/istio-${ISTIO_VERSION}-${OSEXT}.tar.gz"
 echo "Downloading $NAME from $URL ..."
-curl -L "$URL" | tar xz
+curl -L "$URL" -k | tar xz
 # TODO: change this so the version is in the tgz/directory name (users trying multiple versions)
 echo "Downloaded into $NAME:"
 ls "$NAME"
